@@ -1,0 +1,7 @@
+{
+  "name": "my-restaurant-qr-system",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {"dev:customer": "npm --workspace customer run dev", "dev:admin": "npm --workspace admin run dev", "build": "npm run build --workspaces"},
+  "devDependencies": {"concurrently": "^9.1.2"}
+}
